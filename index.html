@@ -3,17 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ATRIPPER | PauAi & VikAi</title>
+
+  <title>ATRIPPER — A journey into limitless beauty</title>
+  <meta name="description" content="ATRIPPER is a digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions featuring PauAi and VikAi." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#000000" />
+
   <link rel="canonical" href="https://www.atripper.com/" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/favicon.ico" />
 
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="ATRIPPER" />
+  <meta property="og:title" content="ATRIPPER — A journey into limitless beauty" />
+  <meta property="og:description" content="A digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions." />
+  <meta property="og:url" content="https://www.atripper.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.atripper.com/images/atripper-pauai-vikai.jpg" />
+  <meta property="og:image:alt" content="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ATRIPPER — A journey into limitless beauty" />
+  <meta name="twitter:description" content="A digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions." />
+  <meta name="twitter:image" content="https://www.atripper.com/images/atripper-pauai-vikai.jpg" />
+  <meta name="twitter:image:alt" content="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition" />
+
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ATRIPPER",
+    "url": "https://www.atripper.com/",
+    "description": "Digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions featuring PauAi and VikAi.",
+    "inLanguage": "en",
+    "publisher": {
+      "@type": "Organization",
+      "name": "ATRIPPER",
+      "url": "https://www.atripper.com/"
+    }
+  }
+  </script>
 
   <style>
     :root {
       --radius: 18px;
       --shadow: 0 10px 30px rgba(0,0,0,0.28);
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -29,7 +71,7 @@
     }
 
     .identity-media {
-      aspect-ratio: 16/9;
+      aspect-ratio: 16 / 9;
       overflow: hidden;
       background: #0b0b0b;
     }
@@ -48,6 +90,7 @@
       font-size: 0.75rem;
       border: 1px solid rgba(255,255,255,0.2);
       transition: .3s;
+      text-decoration: none;
     }
 
     .btn-core:hover {
@@ -101,6 +144,8 @@
     src="https://www.atripper.com/images/atripper-pauai-vikai.jpg"
     alt="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition"
     class="absolute inset-0 w-full h-full object-cover opacity-90"
+    fetchpriority="high"
+    decoding="async"
   />
 </section>
 
@@ -146,6 +191,8 @@
         src="https://www.atripper.com/images/pauai-close-up-face.jpg"
         alt="Close-up portrait of PauAi, a blonde woman with blue eyes and a soft, luminous expression"
         class="identity-img"
+        loading="lazy"
+        decoding="async"
       />
     </div>
     <h2 class="text-xl font-bold mt-5">PauAi</h2>
@@ -155,7 +202,7 @@
       calm, and visual depth.
     </p>
     <a href="https://www.atripper.com/pauai.html" class="btn-core text-white">
-      More information about PauAi
+      More about PauAi
     </a>
   </div>
 
@@ -166,6 +213,8 @@
         src="https://www.atripper.com/images/vikai-close-up-face.jpg"
         alt="Close-up portrait of VikAi, a brunette woman with an intense gaze in an editorial composition"
         class="identity-img"
+        loading="lazy"
+        decoding="async"
       />
     </div>
     <h2 class="text-xl font-bold mt-5">VikAi</h2>
@@ -175,7 +224,7 @@
       attention and holds it.
     </p>
     <a href="https://www.atripper.com/vikai.html" class="btn-core text-white">
-      More information about VikAi
+      More about VikAi
     </a>
   </div>
 </section>
@@ -185,7 +234,7 @@
      target="_blank"
      rel="noopener noreferrer"
      class="btn-core text-white text-base px-10 py-4 border-[#D4AF87] hover:border-[#E8D5A3] hover:bg-white/10 transition-all">
-    Access full content on Fanvue
+    Discover more on Fanvue
   </a>
 </section>
 
@@ -193,12 +242,16 @@
 <section class="max-w-6xl mx-auto px-6 py-20">
   <h2 class="text-3xl font-bold text-center mb-12">Visual Exploration</h2>
 
+  <p class="text-center text-white/70 max-w-2xl mx-auto mb-12 text-sm md:text-base leading-relaxed">
+    A curated visual selection exploring light, identity, and atmosphere.
+  </p>
+
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
     <!-- 01 -->
     <div class="gallery-item">
       <img src="images/atripper_01.jpg"
-           alt="Close-up portrait of a blonde woman with blue eyes, luminous skin, and windblown wavy hair, with a soft natural expression against a neutral background"
+           alt="Close-up portrait of a blonde woman with blue eyes, luminous skin, and soft wavy hair, captured in natural light against a minimal background"
            loading="lazy" decoding="async" />
       <div class="caption">ATRIPPER — Ethereal Portrait</div>
     </div>
@@ -206,7 +259,7 @@
     <!-- 02 -->
     <div class="gallery-item">
       <img src="images/atripper_02.jpg"
-           alt="Blonde woman with pink wings wearing red lingerie, leaning toward the camera in an editorial pose against a light fantasy-style background"
+           alt="Blonde woman with pink wings wearing red lingerie, posed in a soft editorial fantasy setting with light tones and feather textures"
            loading="lazy" decoding="async" />
       <div class="caption">ATRIPPER — Angel in Red</div>
     </div>
@@ -214,7 +267,7 @@
     <!-- 03 -->
     <div class="gallery-item">
       <img src="images/atripper_03.jpg"
-           alt="Brunette woman with pink wings holding a cupid arrow, wearing a bright red dress and surrounded by clouds in a conceptual scene"
+           alt="Brunette woman with pink wings holding a cupid arrow, wearing a glossy red dress and standing within a cloud-like backdrop"
            loading="lazy" decoding="async" />
       <div class="caption">ATRIPPER — Modern Cupid</div>
     </div>
@@ -222,7 +275,7 @@
     <!-- 04 -->
     <div class="gallery-item">
       <img src="images/atripper_04.jpg"
-           alt="Brunette woman with pink wings in red lingerie, seated in an editorial pose with soft lighting against a cloud background"
+           alt="Brunette woman with pink wings in red lingerie, seated gracefully within a soft cloud environment in a stylized editorial composition"
            loading="lazy" decoding="async" />
       <div class="caption">ATRIPPER — Celestial Fantasy</div>
     </div>
@@ -230,23 +283,23 @@
     <!-- 05 -->
     <div class="gallery-item">
       <img src="images/atripper_05.jpg"
-           alt="Close-up portrait of a blonde woman under pink and green neon lighting, with an intense expression and cinematic aesthetic"
+           alt="Two women with pink wings in a mirrored composition, wearing red outfits and posing symmetrically in a stylized fantasy scene"
            loading="lazy" decoding="async" />
-      <div class="caption">ATRIPPER — Neon Portrait</div>
+      <div class="caption">ATRIPPER — Dual Reflection</div>
     </div>
 
     <!-- 06 -->
     <div class="gallery-item">
       <img src="images/atripper_06.jpg"
-           alt="Close-up portrait of a brunette woman smiling under neon lighting, with a blurred nightclub-style background"
+           alt="Close-up portrait of a brunette woman with flowing hair and soft lighting, captured in a clean editorial style"
            loading="lazy" decoding="async" />
-      <div class="caption">ATRIPPER — Neon Smile</div>
+      <div class="caption">ATRIPPER — Soft Presence</div>
     </div>
 
     <!-- 07 -->
     <div class="gallery-item">
       <img src="images/atripper_07.jpg"
-           alt="Brunette woman seated on a red leather sofa in a nighttime setting with neon lights, wearing elegant white clothing"
+           alt="Two women in a neon-lit lounge, one holding a camera, seated in a cinematic nightlife setting with red leather seating"
            loading="lazy" decoding="async" />
       <div class="caption">ATRIPPER — Night Lounge</div>
     </div>
@@ -254,7 +307,7 @@
     <!-- 08 -->
     <div class="gallery-item">
       <img src="images/atripper_08.jpg"
-           alt="Blonde woman in black lingerie posing in a club with pink and green neon lighting, in a cinematic atmosphere"
+           alt="Two women in black outfits seated on a red leather sofa in a neon-lit club environment, posed in a stylized editorial composition"
            loading="lazy" decoding="async" />
       <div class="caption">ATRIPPER — Night Energy</div>
     </div>
@@ -262,7 +315,7 @@
     <!-- 09 -->
     <div class="gallery-item">
       <img src="images/atripper_09.jpg"
-           alt="Blonde woman running beside a pool in a tropical outdoor setting, wearing a pink top and yellow bikini under warm natural light"
+           alt="Two women standing in a desert landscape at sunset, wearing contrasting outfits with warm natural light and open horizon"
            loading="lazy" decoding="async" />
       <div class="caption">ATRIPPER — Summer Motion</div>
     </div>
@@ -270,36 +323,36 @@
     <!-- 10 -->
     <div class="gallery-item">
       <img src="images/atripper_10.jpg"
-           alt="Blonde woman inside a pool with turquoise water, leaning on the edge in a sunny tropical setting"
+           alt="Woman standing in a dimly lit interior with textured walls, captured in a moody cinematic composition with directional light"
            loading="lazy" decoding="async" />
-      <div class="caption">ATRIPPER — Pool Moment</div>
+      <div class="caption">ATRIPPER — Shadow Frame</div>
     </div>
 
     <!-- 11 -->
     <div class="gallery-item">
       <img src="images/atripper_11.jpg"
-           alt="Two women in an outdoor pool surrounded by rocks and tropical vegetation, looking at each other with relaxed expressions"
+           alt="Blonde woman in a swimming pool with turquoise water, facing the camera in a bright tropical outdoor setting"
            loading="lazy" decoding="async" />
-      <div class="caption">ATRIPPER — Tropical Duality</div>
+      <div class="caption">ATRIPPER — Pool Moment</div>
     </div>
 
     <!-- 12 -->
     <div class="gallery-item">
       <img src="images/atripper_12.jpg"
-           alt="Blonde woman seated on a red leather sofa under neon lighting, in an editorial pose with a cinematic look"
+           alt="Woman reclining on a car hood in a desert environment, wearing a leather jacket in a bold editorial fashion composition"
            loading="lazy" decoding="async" />
-      <div class="caption">ATRIPPER — Red Lounge</div>
+      <div class="caption">ATRIPPER — Red Horizon</div>
     </div>
 
   </div>
 </section>
-	
+
 <section class="text-center py-12">
   <a href="https://fanvue.com/atripper"
      target="_blank"
      rel="noopener noreferrer"
      class="btn-core text-white text-base px-10 py-4 border-[#D4AF87] hover:border-[#E8D5A3] hover:bg-white/10 transition-all">
-    Access full content on Fanvue
+    Access full experience on Fanvue
   </a>
 </section>
 
