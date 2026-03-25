@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>ATRIPPER — A journey into limitless beauty</title>
-  <meta name="description" content="ATRIPPER is a digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions featuring PauAi and VikAi." />
+  <title>About ATRIPPER | A journey into limitless beauty</title>
+  <meta name="description" content="Learn about ATRIPPER, an editorial digital art project exploring beauty, atmosphere, and cinematic visual storytelling through PauAi and VikAi." />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#000000" />
 
@@ -13,33 +13,36 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/favicon.ico" />
 
-  <!-- Open Graph -->
   <meta property="og:site_name" content="ATRIPPER" />
-  <meta property="og:title" content="ATRIPPER — A journey into limitless beauty" />
-  <meta property="og:description" content="A digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions." />
-  <meta property="og:url" content="https://www.atripper.com/" />
+  <meta property="og:title" content="About ATRIPPER | A journey into limitless beauty" />
+  <meta property="og:description" content="Discover ATRIPPER, an editorial digital art project shaped through beauty, atmosphere, and cinematic visual storytelling." />
+  <meta property="og:url" content="https://www.atripper.com/about.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://www.atripper.com/images/atripper-pauai-vikai.jpg" />
-  <meta property="og:image:alt" content="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition" />
+  <meta property="og:image" content="https://www.atripper.com/images/atripper_07.jpg" />
+  <meta property="og:image:alt" content="PauAi and VikAi together in a cinematic editorial setting inside the ATRIPPER universe" />
   <meta property="og:locale" content="en_US" />
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="ATRIPPER — A journey into limitless beauty" />
-  <meta name="twitter:description" content="A digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions." />
-  <meta name="twitter:image" content="https://www.atripper.com/images/atripper-pauai-vikai.jpg" />
-  <meta name="twitter:image:alt" content="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition" />
+  <meta name="twitter:title" content="About ATRIPPER | A journey into limitless beauty" />
+  <meta name="twitter:description" content="Discover ATRIPPER, an editorial digital art project shaped through beauty, atmosphere, and cinematic visual storytelling." />
+  <meta name="twitter:image" content="https://www.atripper.com/images/atripper_07.jpg" />
+  <meta name="twitter:image:alt" content="PauAi and VikAi together in a cinematic editorial setting inside the ATRIPPER universe" />
 
   <script src="https://cdn.tailwindcss.com"></script>
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "ATRIPPER",
-    "url": "https://www.atripper.com/",
-    "description": "Digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions featuring PauAi and VikAi.",
+    "@type": "AboutPage",
+    "name": "About ATRIPPER",
+    "url": "https://www.atripper.com/about.html",
+    "description": "ATRIPPER is an editorial digital art project exploring beauty, atmosphere, and cinematic visual storytelling through PauAi and VikAi.",
     "inLanguage": "en",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "ATRIPPER",
+      "url": "https://www.atripper.com/"
+    },
     "publisher": {
       "@type": "Organization",
       "name": "ATRIPPER",
@@ -65,23 +68,6 @@
       font-family: Helvetica, Arial, sans-serif;
     }
 
-    .identity-card {
-      background: #111;
-      border: 1px solid rgba(255,255,255,0.08);
-    }
-
-    .identity-media {
-      aspect-ratio: 16 / 9;
-      overflow: hidden;
-      background: #0b0b0b;
-    }
-
-    .identity-img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
     .btn-core {
       display: inline-block;
       margin-top: 14px;
@@ -97,40 +83,21 @@
       background: rgba(255,255,255,0.1);
     }
 
-    .gallery-item {
-      position: relative;
-      aspect-ratio: 16 / 9;
+    .identity-card {
+      background: transparent;
+    }
+
+    .identity-media {
       overflow: hidden;
-      border-radius: var(--radius);
-      background: #000;
-      box-shadow: var(--shadow);
-      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 18px;
     }
 
-    .gallery-item img {
+    .identity-img {
       width: 100%;
-      height: 100%;
+      height: auto;
+      display: block;
       object-fit: cover;
-      transition: transform .35s ease, filter .35s ease;
-    }
-
-    .gallery-item:hover img {
-      transform: scale(1.03);
-      filter: brightness(.93);
-    }
-
-    .caption {
-      position: absolute;
-      left: 10px;
-      bottom: 10px;
-      background: rgba(0,0,0,0.58);
-      color: #fff;
-      padding: 6px 10px;
-      border-radius: 999px;
-      font-size: 12px;
-      letter-spacing: .2px;
-      border: 1px solid rgba(255,255,255,0.12);
-      backdrop-filter: blur(6px);
+      border-radius: 18px;
     }
   </style>
 </head>
@@ -138,11 +105,10 @@
 
 <div id="globalMenu"></div>
 
-<!-- HERO VISUAL -->
 <section class="relative w-full h-[70vh] md:h-[85vh] overflow-hidden">
   <img
     src="https://www.atripper.com/images/atripper_07.jpg"
-    alt="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition"
+    alt="PauAi and VikAi in a cinematic editorial scene inside the ATRIPPER visual universe"
     class="absolute inset-0 w-full h-full object-cover opacity-90"
     fetchpriority="high"
     decoding="async"
@@ -158,7 +124,22 @@
     A journey into limitless beauty
   </p>
 
-  <div class="max-w-3xl mx-auto space-y-8">Hacer texto acerca del proyecto</div>
+  <div class="max-w-3xl mx-auto space-y-6 text-base md:text-lg leading-relaxed text-white/80">
+    <p>
+      ATRIPPER is an editorial digital art project built around visual identity,
+      atmosphere, and character-driven storytelling through PauAi and VikAi.
+    </p>
+
+    <p>
+      It explores beauty through image, mood, and composition, creating a curated
+      universe where sensuality is expressed through style, presence, and cinematic narrative.
+    </p>
+
+    <p>
+      Rather than excess, ATRIPPER focuses on visual rhythm, emotional tone, and
+      carefully shaped character energy within a clean editorial framework.
+    </p>
+  </div>
 
   <div class="mt-12 text-xs tracking-[0.4em] text-white/50">
     .: ATRIPPER :.
@@ -167,12 +148,11 @@
 
 <section class="max-w-6xl mx-auto px-6 pb-20 grid grid-cols-1 md:grid-cols-2 gap-10">
 
-  <!-- PauAi -->
   <div class="identity-card rounded-2xl overflow-hidden text-center p-4">
     <div class="identity-media">
       <img
         src="https://www.atripper.com/images/pauai-close-up-face-02.jpg"
-        alt="Close-up portrait of PauAi, a blonde woman with blue eyes and a soft, luminous expression"
+        alt="Close-up portrait of PauAi, a blonde woman with blue eyes and a soft luminous expression"
         class="identity-img"
         loading="lazy"
         decoding="async"
@@ -180,21 +160,20 @@
     </div>
     <h2 class="text-xl font-bold mt-5">PauAi</h2>
     <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-      Blonde with a clear gaze and luminous presence. PauAi represents a serene,
-      contemplative, and ethereal sensuality, where each gesture suggests delicacy,
-      calm, and visual depth.
+      Blonde, luminous, and serene. PauAi represents the softer side of ATRIPPER:
+      calm presence, delicate sensuality, and a visual language shaped through light,
+      elegance, and atmosphere.
     </p>
     <a href="https://www.atripper.com/pauai.html" class="btn-core text-white">
       More about PauAi
     </a>
   </div>
 
-  <!-- VikAi -->
   <div class="identity-card rounded-2xl overflow-hidden text-center p-4">
     <div class="identity-media">
       <img
         src="https://www.atripper.com/images/vikai-close-up-face-02.jpg"
-        alt="Close-up portrait of VikAi, a brunette woman with an intense gaze in an editorial composition"
+        alt="Close-up portrait of VikAi, a brunette woman with an intense editorial gaze"
         class="identity-img"
         loading="lazy"
         decoding="async"
@@ -202,17 +181,16 @@
     </div>
     <h2 class="text-xl font-bold mt-5">VikAi</h2>
     <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-      Brunette with an intense and magnetic presence. VikAi projects strength,
-      character, and a more direct sensuality, with a visual energy that draws
-      attention and holds it.
+      Brunette, intense, and magnetic. VikAi brings strength, contrast, and a more
+      direct visual energy, defining a bolder editorial presence within the ATRIPPER universe.
     </p>
     <a href="https://www.atripper.com/vikai.html" class="btn-core text-white">
       More about VikAi
     </a>
   </div>
 </section>
-	
-<section class="text-center py-6">  <!-- bajé de py-12 a py-6 -->
+
+<section class="text-center py-6">
   <a href="https://fanvue.com/atripper"
      target="_blank"
      rel="noopener noreferrer"
