@@ -31,30 +31,59 @@
   <script src="https://cdn.tailwindcss.com"></script>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfilePage",
-    "name": "VikAi",
-    "url": "https://www.atripper.com/vikai.html",
-    "description": "VikAi is an intense editorial identity within ATRIPPER, defined by strength, beauty, atmosphere, and cinematic visual presence.",
-    "inLanguage": "en",
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": "ATRIPPER",
-      "url": "https://www.atripper.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://www.atripper.com/vikai.html#webpage",
+      "name": "VikAi",
+      "url": "https://www.atripper.com/vikai.html",
+      "description": "VikAi is an intense editorial identity within ATRIPPER, defined by strength, beauty, atmosphere, and cinematic visual presence.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.atripper.com/#website"
+      },
+      "publisher": {
+        "@id": "https://www.atripper.com/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://www.atripper.com/vikai.html#person"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.atripper.com/images/vikai-close-up-face.jpg#image"
+      }
     },
-    "mainEntity": {
+    {
       "@type": "Person",
+      "@id": "https://www.atripper.com/vikai.html#person",
       "name": "VikAi",
       "description": "An intense editorial identity within the ATRIPPER universe."
     },
-    "publisher": {
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.atripper.com/images/vikai-close-up-face.jpg#image",
+      "contentUrl": "https://www.atripper.com/images/vikai-close-up-face.jpg",
+      "url": "https://www.atripper.com/images/vikai-close-up-face.jpg",
+      "name": "VikAi portrait",
+      "caption": "Close-up editorial portrait of VikAi with dark hair, green eyes, and an intense magnetic expression",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.atripper.com/#website",
+      "url": "https://www.atripper.com/",
+      "name": "ATRIPPER"
+    },
+    {
       "@type": "Organization",
+      "@id": "https://www.atripper.com/#organization",
       "name": "ATRIPPER",
       "url": "https://www.atripper.com/"
     }
-  }
-  </script>
+  ]
+}
+</script>
 
   <style>
     :root {
