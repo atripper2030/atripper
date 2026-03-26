@@ -7,11 +7,9 @@
   <meta name="description" content="ATRIPPER is a digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions featuring PauAi and VikAi." />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#000000" />
- 
   <link rel="canonical" href="https://atripper.com/" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/favicon.ico" />
-
   <!-- Open Graph -->
   <meta property="og:site_name" content="ATRIPPER" />
   <meta property="og:title" content="ATRIPPER — A journey into limitless beauty" />
@@ -21,75 +19,84 @@
   <meta property="og:image" content="https://atripper.com/images/atripper-pauai-vikai.jpg" />
   <meta property="og:image:alt" content="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition" />
   <meta property="og:locale" content="en_US" />
-
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="ATRIPPER — A journey into limitless beauty" />
   <meta name="twitter:description" content="A digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions." />
   <meta name="twitter:image" content="https://atripper.com/images/atripper-pauai-vikai.jpg" />
   <meta name="twitter:image:alt" content="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition" />
-
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://atripper.com/#website",
-        "url": "https://atripper.com/",
-        "name": "ATRIPPER",
-        "description": "Digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions featuring PauAi and VikAi.",
-        "inLanguage": "en",
-        "publisher": {
-          "@id": "https://atripper.com/#organization"
-        }
-      },
-      {
-        "@type": "Organization",
-        "@id": "https://atripper.com/#organization",
-        "name": "ATRIPPER",
-        "url": "https://atripper.com/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://atripper.com/svg/atripper.svg"
-        },
-        "sameAs": [
-          "https://x.com/atripper2030",
-          "https://www.youtube.com/@atripper",
-          "https://www.instagram.com/atripper2030",
-          "https://www.fanvue.com/atripper"
-        ]
-      },
-      {
-        "@type": "ImageObject",
-        "@id": "https://atripper.com/images/atripper-pauai-vikai.jpg#image",
-        "contentUrl": "https://atripper.com/images/atripper-pauai-vikai.jpg",
-        "url": "https://atripper.com/images/atripper-pauai-vikai.jpg",
-        "name": "ATRIPPER editorial visual universe",
-        "caption": "Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition",
-        "inLanguage": "en"
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://atripper.com/#website",
+      "url": "https://atripper.com/",
+      "name": "ATRIPPER",
+      "description": "Digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions featuring PauAi and VikAi.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://atripper.com/#organization"
       }
-    ]
-  }
-  </script>
-
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://atripper.com/#organization",
+      "name": "ATRIPPER",
+      "url": "https://atripper.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://atripper.com/svg/atripper.svg"
+      },
+      "sameAs": [
+        "https://x.com/atripper2030",
+        "https://www.youtube.com/@atripper",
+        "https://www.instagram.com/atripper2030",
+        "https://www.fanvue.com/atripper"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://atripper.com/images/atripper-pauai-vikai.jpg#image",
+      "contentUrl": "https://atripper.com/images/atripper-pauai-vikai.jpg",
+      "url": "https://atripper.com/images/atripper-pauai-vikai.jpg",
+      "name": "ATRIPPER editorial visual universe",
+      "caption": "Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition",
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
   <style>
     :root {
       --radius: 18px;
       --shadow: 0 10px 30px rgba(0,0,0,0.28);
     }
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       margin: 0;
       background-color: #000;
       color: #f5f5f5;
       font-family: Helvetica, Arial, sans-serif;
     }
-    .identity-card { background: #111; border: 1px solid rgba(255,255,255,0.08); }
-    .identity-media { aspect-ratio: 16 / 9; overflow: hidden; background: #0b0b0b; }
-    .identity-img { width: 100%; height: 100%; object-fit: cover; }
+    .identity-card {
+      background: #111;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .identity-media {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #0b0b0b;
+    }
+    .identity-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
     .btn-core {
       display: inline-block;
       margin-top: 14px;
@@ -100,7 +107,9 @@
       transition: .3s;
       text-decoration: none;
     }
-    .btn-core:hover { background: rgba(255,255,255,0.1); }
+    .btn-core:hover {
+      background: rgba(255,255,255,0.1);
+    }
     .gallery-item {
       position: relative;
       aspect-ratio: 16 / 9;
@@ -138,177 +147,283 @@
 <body>
 <div id="globalMenu"></div>
 <main>
-  <!-- HERO VISUAL -->
-  <section class="relative w-full h-[70vh] md:h-[85vh] overflow-hidden">
-    <img
-      src="/images/atripper-pauai-vikai.jpg"
-      alt="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition"
-      class="absolute inset-0 w-full h-full object-cover opacity-90"
-      fetchpriority="high"
-      decoding="async"
-    />
-  </section>
-
-  <section class="text-center py-20 px-6">
-    <h1 class="text-4xl md:text-6xl font-bold mb-6">ATRIPPER</h1>
-    <p class="text-2xl md:text-3xl font-light tracking-[0.04em] text-[#D4AF87] mb-8">
-      A journey into limitless beauty
+<!-- HERO VISUAL -->
+<section class="relative w-full h-[70vh] md:h-[85vh] overflow-hidden">
+  <img
+    src="https://atripper.com/images/atripper-pauai-vikai.jpg"
+    alt="Main image of ATRIPPER featuring PauAi and VikAi in an editorial visual composition"
+    class="absolute inset-0 w-full h-full object-cover opacity-90"
+    fetchpriority="high"
+    decoding="async"
+  />
+</section>
+<section class="text-center py-20 px-6">
+  <h1 class="text-4xl md:text-6xl font-bold mb-6">
+    ATRIPPER
+  </h1>
+  <p class="text-2xl md:text-3xl font-light tracking-[0.04em] text-[#D4AF87] mb-8">
+    A journey into limitless beauty
+  </p>
+  <div class="max-w-3xl mx-auto space-y-8">
+    <p class="text-lg leading-relaxed text-white/80">
+      PauAi and VikAi embody a contemporary visual duality:
+      one, ethereal and luminous; the other, intense and magnetic.
     </p>
-    <div class="max-w-3xl mx-auto space-y-8">
-      <p class="text-lg leading-relaxed text-white/80">
-        PauAi and VikAi embody a contemporary visual duality:
-        one, ethereal and luminous; the other, intense and magnetic.
-      </p>
-      <p class="text-lg leading-relaxed text-white/80">
-        ATRIPPER is an artistic exploration where beauty does not seek uniform perfection,
-        but rather a more organic, expressive, and vivid presence. Subtle variations are an essential
-        part of its visual language and of each character’s identity.
-      </p>
-      <p class="text-lg leading-relaxed text-white/80">
-        Through cinematic 2K compositions with a 3D parallax effect,
-        we create images designed to evoke an immersive,
-        intimate, and lasting visual experience.
-      </p>
+    <p class="text-lg leading-relaxed text-white/80">
+      ATRIPPER is an artistic exploration where beauty does not seek uniform perfection,
+      but rather a more organic, expressive, and vivid presence. Subtle variations are an essential
+      part of its visual language and of each character’s identity.
+    </p>
+    <p class="text-lg leading-relaxed text-white/80">
+      Through cinematic 2K compositions with a 3D parallax effect,
+      we create images designed to evoke an immersive,
+      intimate, and lasting visual experience.
+    </p>
+  </div>
+  <div class="mt-12 text-xs tracking-[0.4em] text-white/50">
+    .: ATRIPPER :.
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-6 pb-20 grid grid-cols-1 md:grid-cols-2 gap-10">
+  <!-- PauAi -->
+  <div class="identity-card rounded-2xl overflow-hidden text-center p-4">
+    <div class="identity-media">
+      <img
+        src="https://atripper.com/images/pauai-close-up-face.jpg"
+        alt="Close-up portrait of PauAi, a blonde woman with blue eyes and a soft, luminous expression"
+        class="identity-img"
+        loading="lazy"
+        decoding="async"
+      />
     </div>
-    <div class="mt-12 text-xs tracking-[0.4em] text-white/50">.: ATRIPPER :.</div>
-  </section>
-
-  <section class="max-w-6xl mx-auto px-6 pb-20 grid grid-cols-1 md:grid-cols-2 gap-10">
-    <!-- PauAi -->
-    <div class="identity-card rounded-2xl overflow-hidden text-center p-4">
-      <div class="identity-media">
-        <img src="/images/pauai-close-up-face.jpg"
-             alt="Close-up portrait of PauAi, a blonde woman with blue eyes and a soft, luminous expression"
-             class="identity-img" loading="lazy" decoding="async" />
-      </div>
-      <h2 class="text-xl font-bold mt-5">PauAi</h2>
-      <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-        Blonde with a clear gaze and luminous presence. PauAi represents a serene,
-        contemplative, and ethereal sensuality, where each gesture suggests delicacy,
-        calm, and visual depth.
-      </p>
-      <a href="/pauai.html" class="btn-core text-white">More about PauAi</a>
-    </div>
-
-    <!-- VikAi -->
-    <div class="identity-card rounded-2xl overflow-hidden text-center p-4">
-      <div class="identity-media">
-        <img src="/images/vikai-close-up-face.jpg"
-             alt="Close-up portrait of VikAi, a brunette woman with an intense gaze in an editorial composition"
-             class="identity-img" loading="lazy" decoding="async" />
-      </div>
-      <h2 class="text-xl font-bold mt-5">VikAi</h2>
-      <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-        Brunette with an intense and magnetic presence. VikAi projects strength,
-        character, and a more direct sensuality, with a visual energy that draws
-        attention and holds it.
-      </p>
-      <a href="/vikai.html" class="btn-core text-white">More about VikAi</a>
-    </div>
-  </section>
-
-  <section class="text-center py-6">
-    <a href="https://fanvue.com/atripper"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="btn-core text-white text-base px-6 py-3 border-[#D4AF87] hover:border-[#E8D5A3] hover:bg-white/10 transition-all">
-      Discover more on Fanvue
+    <h2 class="text-xl font-bold mt-5">PauAi</h2>
+    <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+      Blonde with a clear gaze and luminous presence. PauAi represents a serene,
+      contemplative, and ethereal sensuality, where each gesture suggests delicacy,
+      calm, and visual depth.
+    </p>
+    <a href="https://atripper.com/pauai.html" class="btn-core text-white">
+      More about PauAi
     </a>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="max-w-6xl mx-auto px-6 py-20">
-    <h2 class="text-3xl font-bold text-center mb-12">Visual Exploration</h2>
-    <p class="text-center text-white/70 max-w-2xl mx-auto mb-12 text-sm md:text-base leading-relaxed">
-      A curated visual selection exploring light, identity, and atmosphere.
-    </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="gallery-item"><img src="/images/atripper_01.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Ethereal Portrait</div></div>
-      <div class="gallery-item"><img src="/images/atripper_02.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Angel in Red</div></div>
-      <div class="gallery-item"><img src="/images/atripper_03.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Modern Cupid</div></div>
-      <div class="gallery-item"><img src="/images/atripper_04.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Celestial Fantasy</div></div>
-      <div class="gallery-item"><img src="/images/atripper_05.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Dual Reflection</div></div>
-      <div class="gallery-item"><img src="/images/atripper_06.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Soft Presence</div></div>
-      <div class="gallery-item"><img src="/images/atripper_07.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Night Lounge</div></div>
-      <div class="gallery-item"><img src="/images/atripper_08.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Night Energy</div></div>
-      <div class="gallery-item"><img src="/images/atripper_09.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Summer Motion</div></div>
-      <div class="gallery-item"><img src="/images/atripper_10.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Shadow Frame</div></div>
-      <div class="gallery-item"><img src="/images/atripper_11.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Pool Moment</div></div>
-      <div class="gallery-item"><img src="/images/atripper_12.jpg" alt="..." loading="lazy" decoding="async" /><div class="caption">ATRIPPER — Red Horizon</div></div>
+  </div>
+  <!-- VikAi -->
+  <div class="identity-card rounded-2xl overflow-hidden text-center p-4">
+    <div class="identity-media">
+      <img
+        src="https://atripper.com/images/vikai-close-up-face.jpg"
+        alt="Close-up portrait of VikAi, a brunette woman with an intense gaze in an editorial composition"
+        class="identity-img"
+        loading="lazy"
+        decoding="async"
+      />
     </div>
-  </section>
-
-  <section class="text-center py-6">
-    <a href="https://fanvue.com/atripper"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="btn-core text-white text-base px-6 py-3 border-[#D4AF87] hover:border-[#E8D5A3] hover:bg-white/10 transition-all">
-      Access full experience on Fanvue
+    <h2 class="text-xl font-bold mt-5">VikAi</h2>
+    <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+      Brunette with an intense and magnetic presence. VikAi projects strength,
+      character, and a more direct sensuality, with a visual energy that draws
+      attention and holds it.
+    </p>
+    <a href="https://atripper.com/vikai.html" class="btn-core text-white">
+      More about VikAi
     </a>
-  </section>
-
-  <!-- Cinematic Trailers -->
-  <section class="max-w-6xl mx-auto px-6 py-20">
-    <h2 class="text-3xl font-bold text-center mb-6">Cinematic Trailer Videos</h2>
-    <p class="text-center text-white/70 max-w-2xl mx-auto mb-12 text-sm md:text-base leading-relaxed">
-      Two motion studies exploring light, identity and atmosphere
-    </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-      <!-- Video Card 1 -->
-      <div onclick="openVideoModal('fyXe6fxv1tA')" class="identity-card rounded-2xl overflow-hidden text-center p-4 cursor-pointer group">
-        <div class="identity-media relative">
-          <img src="/images/atripper_video_poster_01.jpg" alt="ATRIPPER Video 1" class="identity-img transition-all duration-300 group-hover:scale-105">
-          <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent via-transparent to-black/40 group-hover:via-black/20">
-            <div class="w-20 h-20 bg-white/95 hover:bg-white rounded-full flex items-center justify-center shadow-2xl transition-all group-active:scale-95">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-black ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132z" />
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 4.01V8" />
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="mt-6">
-          <h3 class="text-2xl font-bold">A journey into limitless beauty [ The symphony of an angel ]</h3>
-          <p class="text-gray-400 mt-3 text-sm px-2">An editorial digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions. PauAi and VikAi embody a contemporary visual duality: one luminous and serene, the other intense and magnetic. This visual piece presents a fragment of the ATRIPPER universe, where image, mood, and presence define the experience.</p>
-        </div>
-      </div>
-
-      <!-- Video Card 2 -->
-      <div onclick="openVideoModal('P5WGUh0GOpg')" class="identity-card rounded-2xl overflow-hidden text-center p-4 cursor-pointer group">
-        <div class="identity-media relative">
-          <img src="/images/atripper_video_poster_02.jpg" alt="ATRIPPER Video 2" class="identity-img transition-all duration-300 group-hover:scale-105">
-          <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent via-transparent to-black/40 group-hover:via-black/20">
-            <div class="w-20 h-20 bg-white/95 hover:bg-white rounded-full flex items-center justify-center shadow-2xl transition-all group-active:scale-95">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-black ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132z" />
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 4.01V8" />
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="mt-6">
-          <h3 class="text-2xl font-bold">A journey into limitless beauty [ Urban Mode ]</h3>
-          <p class="text-gray-400 mt-3 text-sm px-2">An editorial digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions. PauAi and VikAi embody a contemporary visual duality: one luminous and serene, the other intense and magnetic. This visual piece presents a fragment of the ATRIPPER universe, where image, mood, and presence define the experience.</p>
-        </div>
-      </div>
+  </div>
+</section>
+<section class="text-center py-6"> <!-- bajé de py-12 a py-6 -->
+  <a href="https://fanvue.com/atripper"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="btn-core text-white text-base px-6 py-3 border-[#D4AF87] hover:border-[#E8D5A3] hover:bg-white/10 transition-all">
+    Discover more on Fanvue
+  </a>
+</section>
+<!-- GALLERY PauAi & VikAi -->
+<section class="max-w-6xl mx-auto px-6 py-20">
+  <h2 class="text-3xl font-bold text-center mb-12">Visual Exploration</h2>
+  <p class="text-center text-white/70 max-w-2xl mx-auto mb-12 text-sm md:text-base leading-relaxed">
+    A curated visual selection exploring light, identity, and atmosphere.
+  </p>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- 01 -->
+    <div class="gallery-item">
+      <img src="images/atripper_01.jpg"
+           alt="Close-up portrait of a blonde woman with blue eyes, luminous skin, and soft wavy hair, captured in natural light against a minimal background"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Ethereal Portrait</div>
     </div>
-  </section>
-
-  <!-- Modal de video -->
-  <div id="videoModal" onclick="if(event.target === this) closeVideoModal()" class="hidden fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-4">
-    <div class="max-w-5xl w-full">
-      <div class="flex justify-end mb-3">
-        <button onclick="closeVideoModal()" class="text-5xl text-white/80 hover:text-[#D4AF87] transition-colors">×</button>
-      </div>
-      <div class="aspect-video w-full bg-black rounded-3xl overflow-hidden shadow-2xl">
-        <iframe id="youtubeIframe" class="w-full h-full" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
+    <!-- 02 -->
+    <div class="gallery-item">
+      <img src="images/atripper_02.jpg"
+           alt="Blonde woman with pink wings wearing red lingerie, posed in a soft editorial fantasy setting with light tones and feather textures"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Angel in Red</div>
+    </div>
+    <!-- 03 -->
+    <div class="gallery-item">
+      <img src="images/atripper_03.jpg"
+           alt="Brunette woman with pink wings holding a cupid arrow, wearing a glossy red dress and standing within a cloud-like backdrop"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Modern Cupid</div>
+    </div>
+    <!-- 04 -->
+    <div class="gallery-item">
+      <img src="images/atripper_04.jpg"
+           alt="Brunette woman with pink wings in red lingerie, seated gracefully within a soft cloud environment in a stylized editorial composition"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Celestial Fantasy</div>
+    </div>
+    <!-- 05 -->
+    <div class="gallery-item">
+      <img src="images/atripper_05.jpg"
+           alt="Two women with pink wings in a mirrored composition, wearing red outfits and posing symmetrically in a stylized fantasy scene"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Dual Reflection</div>
+    </div>
+    <!-- 06 -->
+    <div class="gallery-item">
+      <img src="images/atripper_06.jpg"
+           alt="Close-up portrait of a brunette woman with flowing hair and soft lighting, captured in a clean editorial style"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Soft Presence</div>
+    </div>
+    <!-- 07 -->
+    <div class="gallery-item">
+      <img src="images/atripper_07.jpg"
+           alt="Two women in a neon-lit lounge, one holding a camera, seated in a cinematic nightlife setting with red leather seating"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Night Lounge</div>
+    </div>
+    <!-- 08 -->
+    <div class="gallery-item">
+      <img src="images/atripper_08.jpg"
+           alt="Two women in black outfits seated on a red leather sofa in a neon-lit club environment, posed in a stylized editorial composition"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Night Energy</div>
+    </div>
+    <!-- 09 -->
+    <div class="gallery-item">
+      <img src="images/atripper_09.jpg"
+           alt="Two women standing in a desert landscape at sunset, wearing contrasting outfits with warm natural light and open horizon"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Summer Motion</div>
+    </div>
+    <!-- 10 -->
+    <div class="gallery-item">
+      <img src="images/atripper_10.jpg"
+           alt="Woman standing in a dimly lit interior with textured walls, captured in a moody cinematic composition with directional light"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Shadow Frame</div>
+    </div>
+    <!-- 11 -->
+    <div class="gallery-item">
+      <img src="images/atripper_11.jpg"
+           alt="Blonde woman in a swimming pool with turquoise water, facing the camera in a bright tropical outdoor setting"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Pool Moment</div>
+    </div>
+    <!-- 12 -->
+    <div class="gallery-item">
+      <img src="images/atripper_12.jpg"
+           alt="Woman reclining on a car hood in a desert environment, wearing a leather jacket in a bold editorial fashion composition"
+           loading="lazy" decoding="async" />
+      <div class="caption">ATRIPPER — Red Horizon</div>
     </div>
   </div>
+</section>
+<section class="text-center py-6"> <!-- bajé de py-12 a py-6 -->
+  <a href="https://fanvue.com/atripper"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="btn-core text-white text-base px-6 py-3 border-[#D4AF87] hover:border-[#E8D5A3] hover:bg-white/10 transition-all">
+    Access full experience on Fanvue
+  </a>
+</section>
+
+<!-- ===== NUEVA SECCIÓN DE VIDEOS (después del botón) ===== -->
+<section class="max-w-6xl mx-auto px-6 py-20">
+  <h2 class="text-3xl font-bold text-center mb-6">Cinematic Trailer VIdeos</h2>
+  <p class="text-center text-white/70 max-w-2xl mx-auto mb-12 text-sm md:text-base leading-relaxed">
+    Two motion studies exploring light, identity and atmosphere
+  </p>
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+    
+    <!-- Video Card 1 -->
+    <div onclick="openVideoModal('fyXe6fxv1tA')" class="identity-card rounded-2xl overflow-hidden text-center p-4 cursor-pointer group">
+      <div class="identity-media relative">
+        <img 
+          src="https://atripper.com/images/atripper_video_poster_01.jpg" 
+          alt="ATRIPPER Video 1"
+          class="identity-img transition-all duration-300 group-hover:scale-105">
+        <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent via-transparent to-black/40 group-hover:via-black/20">
+          <div class="w-20 h-20 bg-white/95 hover:bg-white rounded-full flex items-center justify-center shadow-2xl transition-all group-active:scale-95">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-black ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 4.01V8" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6">
+        <h3 class="text-2xl font-bold">A journey into limitless beauty [ The symphony of an angel ]</h3>
+        <p class="text-gray-400 mt-3 text-sm px-2">An editorial digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions.  PauAi and VikAi embody a contemporary visual duality: one luminous and serene, the other intense and magnetic.  This visual piece presents a fragment of the ATRIPPER universe, where image, mood, and presence define the experience.</p>
+      </div>
+    </div>
+
+    <!-- Video Card 2 -->
+    <div onclick="openVideoModal('P5WGUh0GOpg')" class="identity-card rounded-2xl overflow-hidden text-center p-4 cursor-pointer group">
+      <div class="identity-media relative">
+        <img 
+          src="https://atripper.com/images/atripper_video_poster_02.jpg" 
+          alt="ATRIPPER Video 2"
+          class="identity-img transition-all duration-300 group-hover:scale-105">
+        <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent via-transparent to-black/40 group-hover:via-black/20">
+          <div class="w-20 h-20 bg-white/95 hover:bg-white rounded-full flex items-center justify-center shadow-2xl transition-all group-active:scale-95">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-black ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 4.01V8" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6">
+        <h3 class="text-2xl font-bold">A journey into limitless beauty [ Urban Mode ]</h3>
+        <p class="text-gray-400 mt-3 text-sm px-2">An editorial digital art project exploring beauty, identity, and atmosphere through cinematic visual compositions.  PauAi and VikAi embody a contemporary visual duality: one luminous and serene, the other intense and magnetic.  This visual piece presents a fragment of the ATRIPPER universe, where image, mood, and presence define the experience.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+	
+	<section class="text-center py-6"> <!-- bajé de py-12 a py-6 -->
+  <a href="https://fanvue.com/atripper"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="btn-core text-white text-base px-6 py-3 border-[#D4AF87] hover:border-[#E8D5A3] hover:bg-white/10 transition-all">
+    Full version experience on Fanvue
+  </a>
+</section>
+
+<!-- Modal de video (se abre al hacer clic en las cards) -->
+<div id="videoModal" onclick="if(event.target === this) closeVideoModal()" 
+     class="hidden fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-4">
+  <div class="max-w-5xl w-full">
+    <div class="flex justify-end mb-3">
+      <button onclick="closeVideoModal()" 
+              class="text-5xl text-white/80 hover:text-[#D4AF87] transition-colors">×</button>
+    </div>
+    <div class="aspect-video w-full bg-black rounded-3xl overflow-hidden shadow-2xl">
+      <iframe id="youtubeIframe" class="w-full h-full" 
+              src="" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
 </main>
-
 <div id="footer-container"></div>
-
 <script>
 async function loadBlock(id, url) {
   try {
@@ -320,6 +435,7 @@ async function loadBlock(id, url) {
   }
 }
 
+/* === FUNCIONES DEL MODAL DE VIDEOS === */
 function openVideoModal(videoId) {
   const iframe = document.getElementById('youtubeIframe');
   iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
