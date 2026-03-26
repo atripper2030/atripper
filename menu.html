@@ -1,12 +1,10 @@
-<!-- ? MENU Atripper (FINAL) -->
 <nav class="main-menu" role="navigation" aria-label="Main navigation">
   <ul>
-    <li><a href="https://www.atripper.com/about.html">About</a></li>
-
+    <li><a href="https://atripper.com/about.html">About</a></li>
     <li class="logo-item">
-      <a href="https://www.atripper.com/" aria-label="Atripper Home">
-        <img 
-          src="https://www.atripper.com/svg/atripper.svg"
+      <a href="https://atripper.com/" aria-label="Atripper Home">
+        <img
+          src="https://atripper.com/svg/atripper.svg"
           alt="Atripper logo"
           class="menu-logo"
           width="180"
@@ -16,11 +14,8 @@
         />
       </a>
     </li>
-
-<li><a href="https://www.atripper.com/pauai.html">PauAi</a></li>
-<li><a href="https://www.atripper.com/vikai.html">VikAi</a></li>
-    
-
+    <li><a href="https://atripper.com/pauai.html">PauAi</a></li>
+    <li><a href="https://atripper.com/vikai.html">VikAi</a></li>
   </ul>
 </nav>
 
@@ -28,7 +23,6 @@
   body, .main-menu {
     font-family: 'Helvetica Neue', sans-serif;
   }
-
   .main-menu {
     display: flex;
     justify-content: center;
@@ -46,7 +40,6 @@
     border-radius: 999px;
     z-index: 1000;
   }
-
   .main-menu ul {
     display: flex;
     list-style: none;
@@ -55,13 +48,11 @@
     flex-wrap: nowrap;
     align-items: center;
   }
-
   .main-menu li {
-  margin-left: -4px; /* ? superpone cápsulas muy levemente */
+    margin-left: -4px;
     display: flex;
     align-items: center;
   }
-
   .main-menu a {
     color: white;
     text-decoration: none;
@@ -75,17 +66,14 @@
     gap: 8px;
     white-space: nowrap;
   }
-
   .main-menu a.active {
     background: white;
     color: black;
   }
-
   .main-menu a:hover:not(.active) {
     background: rgba(255, 255, 255, 0.2);
     transform: scale(1.05);
   }
-
   .menu-logo {
     height: 30px;
     width: auto;
@@ -93,71 +81,59 @@
     filter: brightness(0) invert(1);
   }
 
-  /* ? ? RESPONSIVE + SAFE AREA iPHONE (FINAL) */
-@media screen and (max-width: 768px) {
-
-  .main-menu {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    width: 100%;
-    justify-content: space-around;
-
-    /* safe-area + padding reducido */
-    padding-top: calc(6px + env(safe-area-inset-top, 0px));
-    padding-bottom: 6px;
-    padding-left: 8px;
-    padding-right: 8px;
-
-    border-radius: 0;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+  /* RESPONSIVE + SAFE AREA iPHONE */
+  @media screen and (max-width: 768px) {
+    .main-menu {
+      position: fixed;
+      top: 0; 
+      left: 0; 
+      right: 0;
+      width: 100%;
+      justify-content: space-around;
+      padding-top: calc(6px + env(safe-area-inset-top, 0px));
+      padding-bottom: 6px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 0;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .main-menu ul {
+      gap: 0 !important;
+    }
+    .main-menu li {
+      margin-left: -4px !important;
+    }
+    .main-menu a {
+      font-size: 10px;
+      padding: 3px 8px;
+      gap: 4px;
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+    }
+    body {
+      padding-top: calc(44px + env(safe-area-inset-top, 0px));
+    }
+    .menu-logo {
+      height: 18px;
+      width: auto;
+    }
+    .mobile-only,
+    li.mobile-only {
+      display: none !important;
+    }
+    .main-menu ul > li { 
+      flex-shrink: 1; 
+      min-width: 0; 
+    }
+    .main-menu a { 
+      min-width: 0; 
+    }
   }
-
-  /* ? SIN ESPACIO ENTRE CÁPSULAS */
-  .main-menu ul {
-    gap: 0 !important;
-  }
-
-  /* ? PEGAR CÁPSULAS ENTRE SÍ EN MÓVIL TAMBIÉN */
-  .main-menu li {
-    margin-left: -4px !important;
-  }
-
-  /* ? CÁPSULAS MÁS COMPACTAS */
-  .main-menu a {
-    font-size: 10px;
-    padding: 3px 8px;
-    gap: 4px;
-    letter-spacing: -0.02em;
-    white-space: nowrap;
-  }
-
-  /* reduce el espacio que empuja el contenido */
-  body {
-    padding-top: calc(44px + env(safe-area-inset-top, 0px));
-  }
-
-  /* logo más pequeño */
-  .menu-logo {
-    height: 18px;
-    width: auto;
-  }
-
-  /* oculta secundarios sin dejar hueco */
-  .mobile-only,
-  li.mobile-only {
-    display: none !important;
-  }
-
-  /* evitar desbordes horizontales */
-  .main-menu ul > li { flex-shrink: 1; min-width: 0; }
-  .main-menu a { min-width: 0; }
-}
-
 </style>
 
 <script>
-/* ? Marca activa */
+/* Marca activa en el menú */
 const currentPath = window.location.pathname.replace(/\/$/, '');
 document.querySelectorAll('.main-menu a').forEach(link => {
   const linkPath = new URL(link.href).pathname.replace(/\/$/, '');
@@ -166,7 +142,7 @@ document.querySelectorAll('.main-menu a').forEach(link => {
 </script>
 
 <script>
-/* ? Fix Safari */
+/* Fix Safari duplicado de estilos */
 const styles = document.querySelectorAll("style");
 styles.forEach(style => {
   const cloned = document.createElement("style");
